@@ -26,13 +26,11 @@ telegraphbot = Client("TELEGRAPH",
 @telegraphbot.on_message(filters.command('start') & filters.incoming)
 async def start_handlers(c, m):
     await m.reply_text(
-        "Hello **Dear!**\n\n"
-        "I am a telegra.ph uploader.\n\n"
-        "⍟ I can upload photos to telegra.ph and gives you the link.\n"
-        "⍟ I can create a instant view link for your text.\n"
-        "⍟ I can create post in telegra.ph if you send any text.\n"
-        "(You can send text in format `post content|TITLE`)\n\n"
-        "Create your own [𝗙𝗼𝗿𝗸 𝗡𝗼𝘄](https://github.com/Ns-AnoNymouS/Telegraph-Uploader)",
+        "**💘 Oi!, sou o TelegraphBOT.**\n\n"
+        "**Um robô capaz de gerar link para suas fotos.**\n\n"
+        "**Também posso criar postagens no Telegra.ph**\n"
+        "**Me envie uma foto ou poste algo (Exemplo: TEXTO | TÍTULO)\n\n"
+        "**Reporte erros: [𝐑𝐲𝐚𝐧 𝐅𝐞𝐫𝐫𝐞𝐢𝐫𝐚](https://t.me/L4MEK)",
         disable_web_page_preview=True,
         quote=True
     )
