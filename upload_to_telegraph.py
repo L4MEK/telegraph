@@ -27,9 +27,6 @@ telegraphbot = Client("TELEGRAPH",
 async def start_handlers(c, m):
     await m.reply_text(
         "**💘 Oi!, sou o TelegraphBOT. Um robô capaz de gerar links para suas fotos**\n\n"
-        "**Eu também posso gerar links para seus textos.**\n\n"
-        "**Ou criar postagens no Telegra.ph.**\n"
-        "**Me envie uma foto ou poste algo (Exemplo: TEXTO | TÍTULO)\n\n"
         "**Reporte erros para: [𝐑𝐲𝐚𝐧 𝐅𝐞𝐫𝐫𝐞𝐢𝐫𝐚](https://t.me/L4MEK)\n",
         disable_web_page_preview=True,
         quote=True
